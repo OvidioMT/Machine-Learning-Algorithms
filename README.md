@@ -5,7 +5,7 @@
 
 Este repositorio contiene un extenso portafolio práctico implementado en un cuaderno de Jupyter (`ProyectoIA.ipynb`), en el cual se desarrollan, evalúan y comparan tres familias principales de algoritmos de Machine Learning (supervisados y no supervisados) aplicados a diversos conjuntos de datos reales.
 
-## 📊 Algoritmos y Datasets Analizados
+## Algoritmos y Datasets Analizados
 
 ### 1. Regresión Logística (Clasificación Binaria)
 Se utiliza la regresión logística para predecir probabilidades y clasificar en dos categorías.
@@ -22,7 +22,7 @@ Agrupación de datos sin etiquetas usando **K-Means** y **GMM (Gaussian Mixture 
 *   **Credit Card Fraud Detection:** Segmentación de transacciones de tarjetas de crédito para identificar y detectar anomalías (fraude) de forma natural sin usar la etiqueta objetivo durante el entrenamiento.
 *   **Telco Customer Churn:** Segmentación de clientes de telecomunicaciones según su perfil y comportamiento de uso para identificar grupos con distinto riesgo de abandono del servicio (churn).
 
-## 🛠️ Metodología Aplicada
+## Metodología Aplicada
 
 Para cada uno de los modelos implementados en el cuaderno, se sigue de manera rigurosa el siguiente flujo de trabajo de Ciencia de Datos:
 1. **Carga y Exploración Inicial:** Comprensión de las variables y estructura de los datos.
@@ -31,7 +31,7 @@ Para cada uno de los modelos implementados en el cuaderno, se sigue de manera ri
 4. **Entrenamiento y Ajuste de Hiperparámetros:** Técnicas de optimización como la búsqueda del K óptimo mediante validación cruzada y el método del codo/silueta para Clustering.
 5. **Evaluación de Modelos:** Análisis de resultados usando múltiples métricas como Accuracy, Precision, Recall, F1-Score, AUC-ROC, RMSE, MAE y R² Score.
 
-## 🚀 Cómo utilizar este proyecto
+## Cómo utilizar este proyecto
 
 Para reproducir el análisis, abre el cuaderno principal:
 ```bash
@@ -39,3 +39,7 @@ jupyter notebook ProyectoIA.ipynb
 ```
 
 *Nota: Asegúrate de tener instaladas las dependencias típicas de ciencia de datos en Python (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`).*
+
+## Autores
+
+* **Ovidio Taleno** - [Github](https://github.com/ovidioMT)
