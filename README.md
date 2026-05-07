@@ -42,4 +42,4 @@ jupyter notebook ProyectoIA.ipynb
 
 ## Autores
 
-* **Ovidio Taleno** - [Github](https://github.com/ovidioMT)
+* **Ovidio Taleno**
