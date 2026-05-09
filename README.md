@@ -40,6 +40,6 @@ jupyter notebook ProyectoIA.ipynb
 
 *Nota: Asegúrate de tener instaladas las dependencias típicas de ciencia de datos en Python (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`).*
 
-## Autores
+## Autor
 
 * **Ovidio Taleno**
