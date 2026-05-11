@@ -1,45 +1,45 @@
-# Proyecto Programado I — Machine Learning
+# Programmed Project I — Machine Learning
 
-**Curso:** IC-6200 / Inteligencia Artificial  
-**Institución:** Tecnológico de Costa Rica  
+**Course:** IC-6200 / Artificial Intelligence  
+**Institution:** Costa Rica Institute of Technology  
 
-Este repositorio contiene un extenso portafolio práctico implementado en un cuaderno de Jupyter (`ProyectoIA.ipynb`), en el cual se desarrollan, evalúan y comparan tres familias principales de algoritmos de Machine Learning (supervisados y no supervisados) aplicados a diversos conjuntos de datos reales.
+This repository contains an extensive practical portfolio implemented in a Jupyter notebook (`ProyectoIA.ipynb`), where three main families of Machine Learning algorithms (supervised and unsupervised) are developed, evaluated, and compared using various real-world datasets.
 
-## Algoritmos y Datasets Analizados
+## Analyzed Algorithms and Datasets
 
-### 1. Regresión Logística (Clasificación Binaria)
-Se utiliza la regresión logística para predecir probabilidades y clasificar en dos categorías.
-*   **Students Performance (Desempeño Estudiantil):** Predicción de si un estudiante aprueba o reprueba matemáticas en función de sus condiciones sociodemográficas y puntajes de lectura/escritura.
-*   **Wine Quality (Calidad del Vino Blanco):** Predicción de si un vino es de alta calidad basándose en sus características fisicoquímicas, manejando un dataset con desbalance de clases.
+### 1. Logistic Regression (Binary Classification)
+Logistic regression is used to predict probabilities and classify data into two categories.
+*   **Students Performance:** Prediction of whether a student passes or fails mathematics based on sociodemographic conditions and reading/writing scores.
+*   **Wine Quality (White Wine Quality):** Prediction of whether a wine is of high quality based on its physicochemical characteristics, handling a dataset with class imbalance.
 
-### 2. K-Nearest Neighbors - KNN (Clasificación y Regresión)
-Demostración de la versatilidad del algoritmo KNN para problemas tanto discretos como continuos.
-*   **Netflix (Clasificación):** Identificación del tipo de contenido (Película o Programa de TV) apoyándose principalmente en los géneros y la duración.
-*   **Life Expectancy OMS (Regresión):** Predicción de la expectativa de vida en años según indicadores de salud, sociales y de desarrollo económico por país.
+### 2. K-Nearest Neighbors - KNN (Classification and Regression)
+Demonstration of the versatility of the KNN algorithm for both discrete and continuous problems.
+*   **Netflix (Classification):** Identification of the type of content (Movie or TV Show) mainly based on genres and duration.
+*   **WHO Life Expectancy (Regression):** Prediction of life expectancy in years according to health, social, and economic development indicators by country.
 
-### 3. Clustering (Aprendizaje No Supervisado)
-Agrupación de datos sin etiquetas usando **K-Means** y **GMM (Gaussian Mixture Models)** / **DBSCAN**.
-*   **Credit Card Fraud Detection:** Segmentación de transacciones de tarjetas de crédito para identificar y detectar anomalías (fraude) de forma natural sin usar la etiqueta objetivo durante el entrenamiento.
-*   **Telco Customer Churn:** Segmentación de clientes de telecomunicaciones según su perfil y comportamiento de uso para identificar grupos con distinto riesgo de abandono del servicio (churn).
+### 3. Clustering (Unsupervised Learning)
+Data grouping without labels using **K-Means** and **GMM (Gaussian Mixture Models)** / **DBSCAN**.
+*   **Credit Card Fraud Detection:** Segmentation of credit card transactions to naturally identify and detect anomalies (fraud) without using the target label during training.
+*   **Telco Customer Churn:** Segmentation of telecommunications customers according to their profile and usage behavior to identify groups with different levels of service cancellation risk (churn).
 
-## Metodología Aplicada
+## Applied Methodology
 
-Para cada uno de los modelos implementados en el cuaderno, se sigue de manera rigurosa el siguiente flujo de trabajo de Ciencia de Datos:
-1. **Carga y Exploración Inicial:** Comprensión de las variables y estructura de los datos.
-2. **Análisis Exploratorio de Datos (EDA):** Visualización de distribuciones, correlaciones y relaciones entre variables.
-3. **Preprocesamiento:** Escalado de datos (fundamental para algoritmos basados en distancias como KNN y K-Means), codificación de variables categóricas, y técnicas de manejo de desbalanceo y outliers.
-4. **Entrenamiento y Ajuste de Hiperparámetros:** Técnicas de optimización como la búsqueda del K óptimo mediante validación cruzada y el método del codo/silueta para Clustering.
-5. **Evaluación de Modelos:** Análisis de resultados usando múltiples métricas como Accuracy, Precision, Recall, F1-Score, AUC-ROC, RMSE, MAE y R² Score.
+For each model implemented in the notebook, the following Data Science workflow is rigorously followed:
+1. **Loading and Initial Exploration:** Understanding the variables and data structure.
+2. **Exploratory Data Analysis (EDA):** Visualization of distributions, correlations, and relationships between variables.
+3. **Preprocessing:** Data scaling (essential for distance-based algorithms such as KNN and K-Means), categorical variable encoding, and techniques for handling imbalance and outliers.
+4. **Training and Hyperparameter Tuning:** Optimization techniques such as searching for the optimal K through cross-validation and the elbow/silhouette method for Clustering.
+5. **Model Evaluation:** Result analysis using multiple metrics such as Accuracy, Precision, Recall, F1-Score, AUC-ROC, RMSE, MAE, and R² Score.
 
-## Cómo utilizar este proyecto
+## How to Use This Project
 
-Para reproducir el análisis, abre el cuaderno principal:
+To reproduce the analysis, open the main notebook:
 ```bash
 jupyter notebook ProyectoIA.ipynb
 ```
 
-*Nota: Asegúrate de tener instaladas las dependencias típicas de ciencia de datos en Python (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`).*
+*Note: Make sure you have the typical Python data science dependencies installed (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`).*
 
-## Autor
+## Author
 
 * **Ovidio Taleno**
